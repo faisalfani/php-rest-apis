@@ -2,10 +2,10 @@
 
 class Database{
 	
-	private $host  = 'localhost';
-    private $user  = 'root';
+    private $host  = 'localhost';
+    private $user  = '';
     private $password   = "";
-    private $database  = "phpapis"; 
+    private $database  = ""; 
     
     public function getConnection(){		
 		$conn = new mysqli($this->host, $this->user, $this->password, $this->database);
